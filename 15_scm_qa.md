@@ -52,7 +52,7 @@ Steps to follow if a member has completed a specific feature and how to add it t
 2. **request a (Pull Request):** Once she finishes her work, she uploads it to GitHub and requests that her code be merged with the `development` branch.
 3. **(Code Review):** Another girl comes in and checks her work; if it's error-free, working correctly, and compatible with the database, and apis.
 4. **Integration and cleaning:** After approval, the work is merged into `development` and the temporary branch is deleted, to keep it clean.
-5. **Uploading to the final version(main):**Final upload from `development` to `main` is only for ready-made copies, and requires the approval of the leaders.
+5. **Uploading to the final version(main):** Final upload from `development` to `main` is only for ready-made copies, and requires the approval of the leaders.
 
 
 
