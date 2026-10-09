@@ -9,7 +9,7 @@ We used a simple strategy to preserve the core code, divided into three sections
 
 
 
-- `main`
+### - `main`
 The concept:
 
 This is the final and complete version of the Makasib platform, which will be presented to the evaluators and observers on the day of the presentation.
@@ -21,7 +21,7 @@ Laws:
 
 
 
-- `development`
+### - `development`
 The concept: It is a draft compilation for the four members, so that any member who finishes a part puts it in the development.
 
 Laws:
@@ -31,7 +31,7 @@ Laws:
 
 
 
- - feature/*
+###  - `feature/*`
   The concept: A separate branch is created when starting work on a part of the project, so as not to disrupt other work.
 
 
@@ -41,7 +41,7 @@ Laws:
   2-  Once merged, it is removed from the feature list.
 
   
-- `hotfix/*`
+### - `hotfix/*`
 The concept:
  An exceptional branch we use only in case of an emergency.
 
