@@ -15,8 +15,8 @@ The concept:
 This is the final and complete version of the Makasib platform, which will be presented to the evaluators and observers on the day of the presentation.
 
 Laws:
-1- Direct uploading is not alawed.
-2- The code can only be entered through integration and has been previously tested.
+1. Direct uploading is not alawed.
+2. The code can only be entered through integration and has been previously tested.
 
 
 
@@ -25,8 +25,8 @@ Laws:
 The concept: It is a draft compilation for the four members, so that any member who finishes a part puts it in the development.
 
 Laws:
-1- Any feature that has been completed in its own branch is integrated into development.
-2-After completing the testing of the version located in development, We transfer updates to the main page .
+1. Any feature that has been completed in its own branch is integrated into development.
+2. After completing the testing of the version located in development, We transfer updates to the main page .
 
 
 
@@ -37,8 +37,8 @@ Laws:
 
   
   Laws :
-  1- When we finish working on a feature in the feature section, it is integrated into development.
-  2-  Once merged, it is removed from the feature list.
+ 1. When we finish working on a feature in the feature section, it is integrated into development.
+2.  Once merged, it is removed from the feature list.
 
   
 ### - `hotfix/*`
