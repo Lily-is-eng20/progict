@@ -56,4 +56,35 @@ Steps to follow if a member has completed a specific feature and wants to add it
 4. **Integration and cleaning:** After approval, the work is merged into `development` and the temporary branch is deleted to keep it clean.
 5. **Uploading to the final version (`main`):** Uploading from `development` to `main` is only for complete versions and requires approval from the team leaders.
 
-### 5.2 QA Strategy
+### 5.2 Quality Assurance Strategy
+How can we make sure that our website is working correctly and without errors before we display it?
+
+
+**1. Testing tools we use:**
+
+
+- **PyTest:** A code we write that automatically tests programming equations (such as calculator calculations and product prices).
+
+- **Postman:** A program we use to test APIs and make sure that the server returns the data correctly.
+
+-  **Manual Testing:** We enter the site ourselves as if we were users, press the buttons, and try each option.
+  
+**2. Code Quality Tools :**
+- Automated tools (such as Flake8 for Python and ESLint for React) scan the code and make sure it is written neatly and cleanly without formatting errors.
+
+**3.Main Test Cases :**
+- Login (Merchant/Supplier).
+-  The calculator and the effect of correct and incorrect numbers on it.
+-  Adding products to the cart and making a mock checkout (Moyasar Sandbox).
+
+ ### 5.3 Deployment Pipeline
+ How does the code transfer from girls' devices until it becomes a working website on the internet?
+
+**We have three environments:**
+
+ - **Local (Personal Devices):** Each member writes their own feature
+ - **Staging (experimental environment - development):** We collect all member code and upload it to a testing environment.
+ - **Production (final location - main):** The approved version %100 that we upload for discussion 
+ - **Automated Scanning (CI - GitHub Actions):** We note that as soon as a member uploads their work to GitHub, GitHub automatically checks the code and runs tests, and if everything comes out fine, it allows us to merge it.
+ 
+
