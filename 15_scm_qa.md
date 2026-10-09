@@ -1,6 +1,6 @@
 # 5. SCM and QA Strategies
 
-## 5.1 Source Control Management (SCM)
+## 5.0 Source Control Management (SCM)
 
 We will use Git and GitHub to manage the code for a team of 4 members.
 
@@ -46,4 +46,5 @@ A separate branch is created when starting work on a part of the project, so as 
 **Purpose:**
  An exceptional branch we use only in case of an emergency.
 
+##  5.0 Pull Requests & Code Review
 
