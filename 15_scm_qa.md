@@ -78,7 +78,7 @@ How can we make sure that our website is working correctly and without errors be
 -  Adding products to the cart and making a mock checkout (Moyasar Sandbox).
 
  ### 5.3 Deployment Pipeline
- How does the code transfer from girls' devices until it becomes a working website on the internet?
+ How does the code transfer from team members' devices until it becomes a working website on the internet?
 
 **We have three environments:**
 
